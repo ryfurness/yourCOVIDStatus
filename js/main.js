@@ -3,7 +3,7 @@ let city = "";
 getIP();
 //Get Your IP
 async function getIP(){
-    let url ="http://ip-api.com/json/";
+    let url ="//ip-api.com/json/";
     let ip = await fetch(url)
 	.then(res=> res.json())
     .then(data=>{
